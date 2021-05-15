@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Oswald&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: 100vh;
+    background-image: url(https://s1.1zoom.me/b5050/309/Men_Black_background_Human_back_Muscle_515078_3840x2160.jpg);
+    background-size: 100%;
+}
+
+.primera {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.primera .container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.primera .container .col-20{
+    width: 30%;
+    height: 30vh;
+}
+
+.primera .container .col-80{
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.primera .container .col-20 .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.primera .container .col-20 .logo img{
+    margin-top: 30px;
+    display: flex;
+    background-size: auto 100%;
+    border-radius: 50px;
+}
+
+.menu nav ul li{
+    display: inline-block;
+}
+
+.menu nav ul li a{
+    padding: 25px;
+    color: orangered;
+    font-size: 2rem;
+    display: block;
+    text-transform: uppercase;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;    
+}
+
+.menu nav ul li a:hover{
+    color: white;
+}
+
+/* ////////////////////////////////////////////INICIO SEGUNDA////////////////////////////////////////// */
+
+.segunda{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.segunda .container2{
+    width: 100%;
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.segunda .container2 h1{
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.segunda .container2 h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: orangered;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.segunda .container2 button{
+    margin: 0 auto;
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.014);
+    border-radius: 10px;
+    border-color: azure;
+    color: azure;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+}
+
+.segunda .container2 button:hover{
+    background: rgba(0, 0, 0, 0.3);
+    color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+}
+
+/* //////////////////////////////////////MAIN/////////////////////////////////////////////////////// */
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+.main1 .Fondo{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.boomfit.eu/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+}
+.main1 .Fondo .text{
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 .Fondo .text h1{
+    color: orangered;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
