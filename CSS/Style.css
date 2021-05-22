@@ -55,6 +55,8 @@ header{
     display: flex;
     background-size: auto 100%;
     border-radius: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 .menu nav ul li{
@@ -161,3 +163,94 @@ main{
     font-family: 'Oswald', sans-serif;
 }
 
+/* ////////////////////////////////////////////////////////////RESPONSIVE////////////////////////////////////////////*/
+
+/* /////////////////////////////////////////////////PRIMERA SECTION//////////////////////////////////////////////////// */
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+    .primera {
+        display: flex;
+        width: 100%;
+        height: 30vh;
+    }
+    .primera .container {
+        width: 100%;
+        height: 30vh;
+    }
+    .primera .container .col-20 .logo img{
+        background-size: 100%;
+        margin: 0;
+    }
+    .menu nav ul li a{
+        padding: 10px;
+        color: orangered;
+        font-size: 1.5rem; 
+    }
+    .segunda .container2 h1{
+        font-size: 1rem;
+    }
+    .segunda .container2 h2{
+        /* margin-top: 30px; */
+        /* margin-bottom: 30px; */
+        color: orangered;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+/* //////////////////////////////////////////////////////SEGUNDA SECTION/////////////////////////////////////////////////// */
+.segunda{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+
+.segunda .container2{
+    width: 100%;
+    height: 40vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.segunda .container2 h1{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.segunda .container2 h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: orangered;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.segunda .container2 button{
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.014);
+    border-radius: 10px;
+    border-color: azure;
+    color: azure;
+    font-size: 1.3rem;
+    display: flex;
+    text-align: center;
+}
+
+.segunda .container2 button:hover{
+    background: rgba(0, 0, 0, 0.3);
+    color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+}
