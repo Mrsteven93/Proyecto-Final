@@ -66,7 +66,7 @@ header{
 .menu nav ul li a{
     padding: 25px;
     color: #ec6c1f;
-    font-size: 2rem;
+    font-size: 2.8rem;
     display: block;
     text-transform: uppercase;
     align-items: center;
@@ -94,7 +94,7 @@ header{
 
 .segunda .container1 h1{
     color: white;
-    font-size: 5rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
@@ -132,11 +132,11 @@ header{
 
 /* //////////////////////////////////////MAIN/////////////////////////////////////////////////////// */
 
-main{
+.main1{
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
 }
-.main1 .Fondo{
+.main1 .fondo{
     width: 100%;
     height: 100vh;
     background-image: url(https://www.boomfit.eu/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg);
@@ -145,7 +145,7 @@ main{
     background-size: 100%;
     /* position: absolute; */ 
 }
-.main1 .Fondo .text{
+.main1 .fondo .text{
     width: 100%;
     height: 100%;
     padding: 50px 50px;
@@ -154,7 +154,7 @@ main{
     /* align-items: center; */
 }
 
-.main1 .Fondo .text h1{
+.main1 .fondo .text h1{
     color: #ec6c1f;
     font-size: 5rem;
     display: flex;
@@ -222,7 +222,6 @@ header{
 
 .segunda .container1 h2{
     margin-top: 0px;
-    margin-bottom: 60px;
     color: #ec6c1f;
     font-size: 1.6rem;
     display: flex;
@@ -252,7 +251,7 @@ header{
 }
 
 /* /////////////////////////////////////////////////PRIMERA SECTION 768px//////////////////////////////////////////////////// */
-@media (max-width:768px){
+@media (max-width:768px) {
     header{
         width: 100%;
         height: auto;
@@ -273,23 +272,15 @@ header{
         margin-left: 20px;
     }
 
-    /* .primera .container0 .col-20 .logo img{
-        background-size: 70%;
-        margin: 0;
-    } */
     .menu nav ul li a{
         padding: 10px;
         color: #ec6c1f;
         font-size: 1.8rem; 
     }
-    .segunda .container1 h1{
-        font-size: 1rem;
-    }
+
     .segunda .container1 h2{
-        /* margin-top: 30px; */
-        /* margin-bottom: 30px; */
         color: #ec6c1f;
-        font-size: 1.6rem;
+        font-size: 1rem;
         display: flex;
         justify-content: center;
         font-family: 'Oswald', sans-serif;
@@ -351,7 +342,7 @@ header{
 
 /* ///////////////////////////////////////////////////////////////////MAIN 768px////////////////////////////////////////////// */
 @media (max-width:768px){
-    .main1 .Fondo{
+    .main1 .fondo{
         width: 100%;
         height: 70vh;
         background-image: url(https://www.boomfit.eu/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg);
@@ -360,19 +351,20 @@ header{
         background-size: 100%;
         /* position: absolute; */ 
     }
-    .main1 .Fondo .text{
+    .main1 .fondo .text{
         width: 100%;
         height: 70vh;
     }
 
-    .main1 .Fondo .text h1{
-        font-size: 1.5rem;    
+    .main1 .fondo .text h1{
+        /* margin: 0px 10px 0px 10px; */
+        font-size: 1rem;    
     }
 }
 
 /* /////////////////////////////////////////////////PRIMERA SECTION 480px//////////////////////////////////////////////////// */
 
-@media (max-width:480px){
+/* @media (max-width:480px){
     header{
         width: 100%;
         height: 60vh;
@@ -434,7 +426,7 @@ header{
     margin-top: 60px;
     margin-bottom: 20px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 5rem;
     display: flex;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
@@ -445,7 +437,7 @@ header{
     margin-top: 0px;
     margin-bottom: 60px;
     color: #ec6c1f;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
@@ -471,20 +463,26 @@ header{
 }
 
 /* ///////////////////////////////////////////////////////////////////MAIN 480px////////////////////////////////////////////// */
-.main1 .Fondo{
+.main1 .fondo{
+        margin: 0px;
+        padding: 0px;
         width: 100%;
-        height: 70vh;
+        height: 100%;
         background-image: url(https://www.boomfit.eu/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
         /* position: absolute; */ 
     }
-.main1 .Fondo .text{
+.main1 .fondo .text{
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
         width: 100%;
-        height: 70vh;
     }
 
-.main1 .Fondo .text h1{
-        font-size: 1rem;    
-    }
+.main1 .fondo .text h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 2rem;    
+    } */
