@@ -94,7 +94,7 @@ header{
 
 .segunda .container1 h1{
     color: white;
-    font-size: 1rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
@@ -156,7 +156,7 @@ header{
 
 .main1 .fondo .text h1{
     color: #ec6c1f;
-    font-size: 5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     font-family: 'Oswald', sans-serif;
@@ -210,8 +210,8 @@ header{
 }
 
 .segunda .container1 h1{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     color: white;
     font-size: 2rem;
     display: flex;
@@ -262,7 +262,7 @@ header{
         width: 100%;
         height: 30vh;
     }
-    .primera .container0 {
+    .primera .contaianer0 {
         width: 100%;
         height: 30vh;
     }
@@ -275,12 +275,12 @@ header{
     .menu nav ul li a{
         padding: 10px;
         color: #ec6c1f;
-        font-size: 1.8rem; 
+        font-size: 1.5rem; 
     }
 
     .segunda .container1 h2{
         color: #ec6c1f;
-        font-size: 1rem;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         font-family: 'Oswald', sans-serif;
@@ -358,75 +358,90 @@ header{
 
     .main1 .fondo .text h1{
         /* margin: 0px 10px 0px 10px; */
-        font-size: 1rem;    
+        font-size: 1.4rem;    
     }
 }
 
-/* /////////////////////////////////////////////////PRIMERA SECTION 480px//////////////////////////////////////////////////// */
-
-/* @media (max-width:480px){
+/* //////////////////////////////////////////////////////// PRIMERA SECTION 480px /////////////////////////////// */
+@media (max-width:480px){
     header{
         width: 100%;
-        height: 60vh;
-        background-repeat:no-repeat;
-        background-position: center;
+        height: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        background-image: url(https://s1.1zoom.me/b5050/309/Men_Black_background_Human_back_Muscle_515078_3840x2160.jpg);
     }
 
     .primera {
         display: flex;
         width: 100%;
-        height: 20vh;
+        height: 30%;
     }
-
+    
     .primera .container0 {
         width: 100%;
-        height: 20vh;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
     }
-
+    
     .primera .container0 .col-20{
-        width: 30%;
-        height: 20vh;
-
+        width: 20%;
+        height: 30%;
     }
+    
     .primera .container0 .col-80{
-        width: 70%;
-        height: 20vh;
-
+        width: 80%;
+        display: flex;
     }
-
+    
+    .primera .container0 .col-20 .logo{
+        display: flex;
+        justify-content: center;
+    }
+    
     .primera .container0 .col-20 .logo img{
-        width: 100%;
-        height: 130px;
-        border-radius: 30px;
-
+        margin-top: 15px;
+        display: flex;
+        background-size: auto 100%;
+        border-radius: 50px;
+        max-width: 100%;
+        height: 20vh;
     }
- 
+
     .menu nav ul li a{
-        padding: 5px;
+        padding: 3px;
         color: #ec6c1f;
-        font-size: 1.2rem;
+        font-size: 1.2rem; 
     }
 
-}
-/* //////////////////////////////////////////////////////SEGUNDA SECTION 480px/////////////////////////////////////////////////// */
+    .segunda .container1 h2{
+        color: #ec6c1f;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+    }
+/* /////////////////////////////////////////////////////// Segunda 480px ///////////////////////////////////////////////  */
 .segunda{
     width: 100%;
-    height: 40vh;
+    height: 70%;
     display: flex;
 }
 
 .segunda .container1{
     width: 100%;
-    height: 20vh; 
+    height: 70%; 
     display: flex;
     flex-direction: column;
 }
 
 .segunda .container1 h1{
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin: 0px;
+    padding: 0px;
+    /* margin-top: 30PX; */
     color: white;
-    font-size: 5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
@@ -434,55 +449,34 @@ header{
 }
 
 .segunda .container1 h2{
-    margin-top: 0px;
-    margin-bottom: 60px;
+    margin-top: 50px;
     color: #ec6c1f;
-    font-size: 1.3rem;
-    text-align: center;
+    font-size: 1rem;
+    display: flex;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
 }
-
-.segunda .container1 button{
-    margin: 0 auto;
-    padding: 10px 25px;
-    background-color: rgba(255, 255, 255, 0.014);
-    border-radius: 10px;
-    border-color: azure;
-    color: azure;
-    font-size: 1.3rem;
-    display: flex;
-    text-align: center;
+/* ////////////////////////////////////////////////////////// main 480px ///////////////////////////////////////// */
+.main1{
+    width: 100%;
+    height: 90%;
 }
-
-.segunda .container1 button:hover{
-    background: rgba(0, 0, 0, 0.3);
-    color: #ec6c1f;
-    border-color: #ec6c1f;
-    cursor: pointer;
-}
-
-/* ///////////////////////////////////////////////////////////////////MAIN 480px////////////////////////////////////////////// */
 .main1 .fondo{
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: 100%;
-        background-image: url(https://www.boomfit.eu/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-        /* position: absolute; */ 
-    }
+    width: 100%;
+    /* height: auto; */
+    background-image: url(https://www.boomfit.eu/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg);
+    background-repeat: no-repeat;
+    background-image: 100%;
+}
 .main1 .fondo .text{
-        justify-content: center;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
+    width: 100%;
+    /* height: auto; */
+}
 
 .main1 .fondo .text h1{
-        margin: 0px;
-        padding: 0px;
-        font-size: 2rem;    
-    } */
+    margin: 0px;
+    /* margin: 0px 10px 0px 10px; */
+    font-size: 1rem;    
+}
+}
+

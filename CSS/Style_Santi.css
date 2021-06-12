@@ -83,8 +83,8 @@ body, main{
 }
 
 .container3 .row1:nth-child(1) .col-30 div:nth-child(2) a{
-    color: azure;
-    font-size: 1.3rem;
+    color: #ec6c1f;
+    font-size: 2rem;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -275,6 +275,17 @@ body, main{
     
     .row2 .col-50 div p:nth-child(2){
         font-size: 0.7rem;
+    }
+
+    .container3 .row1:nth-child(1) .col-30 div:nth-child(2) a{
+        color: #ec6c1f;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-top: 30px;
     }
 
 }
