@@ -291,7 +291,43 @@ body, main{
 }
 
 @media(max-width: 480px){
+    /* ///////////////////////////////ajuste////////////////// */
+    .container3{
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+    }
+    
+    .container3 .row1:nth-child(1){
+        height: auto;
+        flex-direction: column;
 
+    }
+
+    .container3 .row1:nth-child(1) .col-30{
+        width: 80%;
+    }
+
+    .container3 .row1 .col-30 div:nth-child(1) svg{
+        width: 3rem;
+        height: 3rem;
+    }    
+
+    .container3 .row1 .col-30 div:nth-child(2) h2{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    .container3 .row1 .col-30 div:nth-child(2) p{
+        margin-top: 15px;
+        font-size: 0.7rem;
+    }
+
+    .container3 .row1 .col-30 div:nth-child(2) a{
+        font-size: 1rem;
+    }
+
+    /* //////////////////////////Final Ajuste//////////////////////////// */
     .row2{
         flex-direction: column;
     }

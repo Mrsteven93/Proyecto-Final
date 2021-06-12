@@ -8,68 +8,6 @@ main{
     margin: 0;
     padding: 0;
 }
-/* //////////////////////ajuste/////////////////////////// */
-/* .primera {
-    background-color: black;
-    display: flex;
-    width: 100%;
-    height: 25vh;
-}
-
-.primera .container0 {
-    width: 100%;
-    height: 25vh;
-    display: flex;
-    flex-direction: row;
-}
-
-.primera .container0 .col-20{
-    width: 30%;
-    height: 28vh;
-}
-
-.primera .container0 .col-80{
-    width: 70%;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-}
-
-.primera .container0 .col-20 .logo{
-    display: flex;
-    justify-content: center;
-}
-
-.primera .container0 .col-20 .logo img{
-    margin-top: 15px;
-    display: flex;
-    background-size: auto 100%;
-    border-radius: 50px;
-    max-width: 100%;
-    height: 23vh;
-}
-
-.menu nav ul li{
-    display: inline-block;
-}
-
-.menu nav ul li a{
-    padding: 25px;
-    color: #ec6c1f;
-    font-size: 2.5rem;
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;    
-}
-
-.menu nav ul li a:hover{
-    color: white;
-}*/
- /* /////////////////////////final ajuste//////////////////////////*/
 
 .navbarcelu{
     width: 100%;
@@ -168,7 +106,7 @@ main{
 .col:nth-child(3){
     display: flex;
     width: 25%;
-    background-image: url('https://hotelnirvana.mx/wp-content/uploads/2021/02/2018_social_media_popular_app_logo-whatsapp-512.png');
+    background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png');
     background-position: center;
     background-size: 100% 100%;
     height: 50vh;
@@ -180,7 +118,7 @@ main{
     /* background-color: rgba(0,0,0,0.2); */
     color: black;
     font-size: 1.7rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     margin-bottom: 340px;
     /* border-radius: 10px 10px 10px 10px; */
@@ -214,19 +152,175 @@ main{
 /* /////////////////////////////////////////// Resolución 1080px //////////////////// */
 
 @media(max-width:1080px){
-    .navbarcelu{
+    .container{
         width: 100%;
-        height: 10vh;
-        background-color: black;
+        height: 90vh;
+        background-image: url(https://www.eleconomista.com.mx/__export/1585090074241/sites/eleconomista/img/2020/03/19/gimnasio_vacio_1.jpg_1093282975.jpg);
+        background-size: auto;
     }
 
-    .navbarcelu .row34 ul li{
-        padding: 5px 10px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 2rem;
-        list-style: none;
+    .container .titulo h1{
+        font-size: 3rem;
+    }
+
+    .row{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .col:nth-child(1){
+        margin: 0px;
+        width: 30%;
+        background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png');
+        background-repeat: no-repeat;
+        height: 50vh;
+        /* align-items: center; */
+    }
+
+    .col:nth-child(2){
+        margin: 0px;
+        width: 35%;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png');
+        background-repeat: no-repeat;
+        height: 50vh;
+        /* align-items: center; */
+    }
+
+    .col:nth-child(3){    
+        margin: 0px;
+        width: 35%;
+        background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 50vh;
+    }
+
+    .col a{
+        margin: 0px;
+        /* padding: 40px 40px; */
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 80px 80px 80px 80px;
+        margin-top: 340px;
     }
 
 @media(max-width: 768px){
+    .container{
+        width: 100%;
+        height: 90vh;
+        background-image: url(https://www.eleconomista.com.mx/__export/1585090074241/sites/eleconomista/img/2020/03/19/gimnasio_vacio_1.jpg_1093282975.jpg);
+        background-size: auto;
+        
+    }
+
+    .container .titulo h1{
+        font-size: 2rem;
+    }
+    .row{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col:nth-child(1){
+        margin: 0px;
+        width: 70%;
+        background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png');
+        background-repeat: no-repeat;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .col:nth-child(2){
+        margin: 0px;
+        width: 70%;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png');
+        background-repeat: no-repeat;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .col:nth-child(3){    
+        margin: 0px;
+        width: 75%;
+        background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 20vh;
+    }
+
+    .col h2{
+        background-color: rgba(0,0,0,0.1);
+        font-size: 1rem;
+    }
+
+    .col a{
+        margin: 0px;
+        background-color: rgba(0,0,0,0.3);
+        font-size: 1.7rem;
+        color: #ec6c1f;
+    }
+}
+
+@media(max-width: 480px){
+.container{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://www.eleconomista.com.mx/__export/1585090074241/sites/eleconomista/img/2020/03/19/gimnasio_vacio_1.jpg_1093282975.jpg);
+    background-size: auto;
+    
+}
+
+.container .titulo h1{
+    font-size: 2rem;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.col:nth-child(1){
+    margin: 0px;
+    width: 70%;
+    background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png');
+    background-repeat: no-repeat;
+    height: 20vh;
+    align-items: center;
+}
+
+.col:nth-child(2){
+    margin: 0px;
+    width: 70%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png');
+    background-repeat: no-repeat;
+    height: 20vh;
+    align-items: center;
+}
+
+.col:nth-child(3){    
+    margin: 0px;
+    width: 75%;
+    background-image: url('http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 20vh;
+}
+.col h2{
+    background-color: rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+
+.col a{
+    margin: 0px;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 1.7rem;
+    color: #ec6c1f;
+}
+
+
 }
 }
